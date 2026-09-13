@@ -17,14 +17,6 @@ body {
     background-color: #F9F6F0;
 }
 
-.top,
-.top-middle,
-.bottom-middle,
-.bottom {
-
-    flex: 1;
-}
-
 .logo {
     font-size: 24px;
     color: #4A4543;
@@ -56,7 +48,7 @@ li {
 .top {
     display: flex;
     justify-content: center;
-    padding: 100px;
+    padding: 100px 200px;
 }
 
 .title-content {
@@ -91,12 +83,13 @@ li {
 .top-middle {
     display: flex;
     flex-direction: column;
+    padding: 100px 200px;
 }
 
 .info {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 0px 200px 100px 200px;
     font-size: 30px;
     color: #4A4543;
     font-weight: 600;
@@ -114,4 +107,43 @@ li {
     height: 260px;
     border-radius: 8px;
     border: 5px solid #9CAF88;
+}
+
+.text {
+    text-align: center;
+    width: 260px;
+}
+
+.bottom-middle {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5C39E;
+    color: #4A4543;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+.client {
+    margin-left: auto;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content:space-between;
+    background-color: #9CAF88;
+    gap: 200px;
+    padding: 50px 100px;
+    flex: auto;
+    color: #4A4543;
 }
