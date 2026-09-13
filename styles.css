@@ -8,9 +8,110 @@ body {
     font-family:'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;    /*Esto sirve para que la página siempre ocupe todo el alto*/
 }
+
 .header,
 .top,
 .footer {
-    background-color: #1F2937;
+    background-color: #F9F6F0;
+}
+
+.top,
+.top-middle,
+.bottom-middle,
+.bottom {
+
+    flex: 1;
+}
+
+.logo {
+    font-size: 24px;
+    color: #4A4543;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #655E5B;
+}
+
+li {
+    list-style: none;
+
+}
+
+.header {
+    display: flex;
+    padding: 20px 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #4A4543;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #655E5B
+}
+
+.top-button {
+    background-color: #9CAF88;
+    width: 150px;
+    color: #655E5B;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border-color: #9CAF88;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.top-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 30px;
+    color: #4A4543;
+    font-weight: 600;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 200px;
+}
+
+.card img {
+    width: 260px;
+    height: 260px;
+    border-radius: 8px;
+    border: 5px solid #9CAF88;
 }
