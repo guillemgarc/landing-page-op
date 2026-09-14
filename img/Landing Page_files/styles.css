@@ -5,11 +5,10 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    /*Esto sirve para que la página siempre ocupe todo el alto*/
+    min-height: 100vh;    /*Esto sirve para que la página siempre ocupe todo el alto*/
 }
 
 .header,
@@ -23,7 +22,7 @@ body {
     color: #4A4543;
     font-weight: 600;
     height: 100px;
-    width: auto;
+    width:auto;
 }
 
 a {
@@ -153,7 +152,7 @@ li {
 
 .bottom-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     background-color: #9CAF88;
     gap: 200px;
